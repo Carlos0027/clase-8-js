@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #928080;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    background-color: #504b4b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f5d3d3;
+}
+
+.botones {
+    margin-bottom: 20px;
+    color: #080808;
+}
+
+.vehiculos img {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 10;
+}
+
+.vehiculos img{
+    opacity: 1;
+    filter: drop-shadow(2px 2px 3px  rgba(5, 5, 5, 10));
+}
+
+.estadisticas {
+    margin-top: 20px;
+}
+
+.estadisticas label {
+    display: block;
+    margin: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(204, 157, 157);
+}
+p{
+    color: rgb(211, 162, 114);
+    font-size: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+
+}
+
+.tiempo {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}

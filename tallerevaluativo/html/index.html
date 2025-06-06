@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peaje Popayán - El Tambo</title>
+    <link rel="stylesheet" href="../css/taller.css" />
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Peaje Popayán - El Tambo</h1>
+
+        <div class="botones">
+            <button id="btnIniciar">Abrir Peaje</button>
+            <button id="btnCerrar" disabled>Cerrar Peaje</button>
+        </div>
+
+        <div class="vehiculos">
+          <p> 5000<img src="../img/png-clipart-car--removebg-preview.png" id="imgAuto" class="vehiculo" alt="Automóvil"/>
+             10000<img src="../img/png-transparent-bus-removebg-preview.png" id="imgBus" class="vehiculo" alt="Bus"/>
+            15000<img src="../img/pngtree-mercedes-truck-removebg-preview.png" id="imgCamion" class="vehiculo" alt="Camión"/></p> 
+        </div>
+
+        <div class="estadisticas">
+          <p>  <label>Automóviles: <input type="text" id="txtAutos" readonly /></label>
+            <label>Buses: <input type="text" id="txtBuses" readonly /></label>
+            <label>Camiones: <input type="text" id="txtCamiones" readonly /></label>
+            <label>Total Recaudado: <input type="text" id="txtTotal" readonly /></label></p>
+        </div>
+    </div>
+
+    
+    <div class="tiempo">
+    <p id="ultimoVehiculo">Último vehículo: --</p>
+</div>
+
+    <script type="module" src="../js/main.js"></script>
+
+</body>
+</html>
